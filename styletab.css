@@ -1,0 +1,26 @@
+.tableau{
+    background: #fff;
+    border-collapse: collapse;
+    border-radius: 2%;
+    width: auto;
+    min-width: 500px;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 15);
+    cursor: pointer;
+    margin: 100px auto;
+    border: 2px solid midnightblue;
+}
+thead tr{
+    background-color: #f44336;
+    color: #fff;
+    text-align: left;
+}
+
+td{
+    padding: 15px 20px;
+}
+tbody tr,td{
+    border: 1px solid #ddd;
+}
+tbody tr:nth-child(even){
+    background-color: #f3f3f3;
+}
